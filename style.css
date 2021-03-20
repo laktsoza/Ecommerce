@@ -1,5 +1,5 @@
 body {
-    width: 1280px;
+    max-width: 1280px;
     margin: 0 auto;
     font-family: 'Spartan';
     font-size: 14px;
@@ -132,4 +132,86 @@ header .container {
 .choose-clothing ul {
     gap: 50px;
     font-size: 12px;
+}
+
+.clothes {
+    margin-top: 60px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+}
+
+.clothes div {
+    position: relative;
+}
+
+.clothes div img {
+    width: 255px;
+}
+
+.clothes div .stars img {
+    width: 65px;
+}
+
+.clothes div p {
+    margin: 12px 0;
+    font-size: 14px;
+}
+
+.stars {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+.container.seeall {
+    margin-top: 50px;
+}
+
+.seeall {
+    text-align: center;
+    padding: 12px 0;
+    background-color: #F8F8F8;
+    border: none;
+    font-family: 'Spartan';
+    cursor: pointer;
+}
+
+/* sales-section */
+
+.sale-section {
+    margin-top: 95px;
+}
+
+/* classic */
+
+.classic {
+    background-color: #DCDBDB;
+    margin-top: 100px;
+    height: 580px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.subscribe {
+    width: 530px;
+    height: 460px;
+    background-color: #ffffff;
+}
+
+.abs img {
+    position: absolute;
+}
+
+.women {
+    width: 310px;
+    top: 36px;
+    left: 113px;
+}
+
+.men {
+    width: 220px;
+    top: 50px;
+    right: 167px;
 }
