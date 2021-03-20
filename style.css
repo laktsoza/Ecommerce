@@ -1,0 +1,135 @@
+body {
+    width: 1280px;
+    margin: 0 auto;
+    font-family: 'Spartan';
+    font-size: 14px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.container {
+    width: 1111px;
+    margin: 0 auto;
+}
+
+.flex-between {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* top black-background line */
+
+.black-background {
+    background-color: black;
+    color: #ffffff;
+}
+
+.black-background .container {
+    padding: 3px 0;
+    font-size: 9px;
+}
+
+.contact span {
+    margin: 0 40px 0 10px;
+}
+
+.social-networks img {
+    margin-left: 11px;
+}
+
+.social-networks img:hover {
+    cursor: pointer;
+}
+
+/* header */
+
+header .container {
+    align-items: center;
+    padding: 18px 0;
+}
+
+.logo a h1 {
+    font-size: 36px;
+}
+
+.navigation nav ul {
+    font-size: 1em;
+    gap: 35px;
+}
+
+.actions img {
+    margin-left: 30px;
+}
+
+/* main  */
+
+.wrapper .container {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+
+.accessories {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.banner img, .accessories img {
+    width: 540px;
+}
+
+.women img, .men img {
+    width: 255px;
+}
+
+.offer {
+    padding: 30px 0;
+}
+
+.container.flex-between.offers div span h2 {
+    font-size: 11px;
+}
+
+.container.flex-between.offers div span p {
+    font-size: 11px;
+    margin-top: 5px;
+}
+
+.container.flex-between.offers div {
+    justify-content: left;
+    width: 325px;
+    gap: 20px;
+    align-items: center;
+}
+
+.container.flex-between.offers div img {
+    width: 30px;
+}
+
+.container.flex-between.offers {
+    justify-content: left;
+    gap: 50px;
+}
+
+/* choose clothing */
+
+.choose-clothing {
+    margin-top: 50px;
+}
+
+.choose-clothing .container.flex-between {
+    align-items: baseline;
+}
+
+.choose-clothing h1 {
+    font-size: 22px;
+}
+
+.choose-clothing ul {
+    gap: 50px;
+    font-size: 12px;
+}
