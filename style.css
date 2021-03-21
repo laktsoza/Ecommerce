@@ -284,7 +284,11 @@ header .container {
     margin-top: 50px;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: 50px 50px 50px 50px 50px;
+    grid-template-rows: 40px 40px 40px 40px 40px;
+}
+
+.footer-information span {
+    font-size: 11px;
 }
 
 .mastercards {
