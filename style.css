@@ -3,6 +3,8 @@ body {
     margin: 0 auto;
     font-family: 'Spartan';
     font-size: 14px;
+    border-right: 1px solid gray;
+    border-left: 1px solid gray;
 }
 
 a {
@@ -27,7 +29,7 @@ a {
     color: #ffffff;
 }
 
-.black-background .container {
+.top {
     padding: 3px 0;
     font-size: 9px;
 }
@@ -204,14 +206,93 @@ header .container {
     position: absolute;
 }
 
-.women {
+.women-classic {
     width: 310px;
     top: 36px;
     left: 113px;
 }
 
-.men {
+.men-classic {
     width: 220px;
     top: 50px;
     right: 167px;
+}
+
+.classics {
+    margin-top: 100px;
+}
+
+/* latestblog */
+
+.blog {
+    margin-top: 50px;
+}
+
+.blog-img-container {
+    position: relative;
+}
+
+.blog-img-container div {
+    position: absolute;
+    background-color: #ffffff;
+    width: 300px;
+    top: 220px;
+    left: 24px
+}
+
+.blog-img-container div h2 {
+    padding: 25px 15px;
+}
+
+.blog-img-container div p {
+    padding: 0 15px;
+    line-height: 1.5;
+}
+
+/* bottom black line  */
+
+.bottom {
+    margin-top: 150px;
+    padding: 15px 0;
+    align-items: center;
+}
+
+
+
+.bottom input {
+    width: 400px;
+    background-color: #707070;
+    color: #ddd;
+    height: 30px;
+}
+
+.bottom label {
+    border: 1px solid #ffffff;
+    padding: 8px 30px;
+    margin-left: 5px;
+    font-size: 12px;
+}
+
+.test {
+    height: 50px;
+    color: #ffffff;
+}
+
+/* footer */
+
+.footer-information {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 50px 50px 50px 50px 50px;
+}
+
+.mastercards {
+    background-color: #F8F8F8;
+    font-size: 11px;
+    padding: 5px 0;
+}
+
+.mastercards .container {
+    align-items: center;
 }
