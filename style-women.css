@@ -6,9 +6,13 @@
 }
 
 .mini-nav img {
-    width: 10px;
+    width: 20px;
     margin: 5px;
     vertical-align: middle;
+}
+
+#arrow {
+    height: 12px;
 }
 
 .share img {
@@ -32,8 +36,85 @@
     text-align: center;
 }
 
+.spanromb {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-color: black;
+    animation: rot 10s linear infinite;
+}
+
+@keyframes rot {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
 .for-women {
     margin-top: 60px;
     padding: 15px 0;
     align-items: center;
 }
+
+/* filter-bar */
+
+.filter-bar {
+    margin-top: 50px;
+    height: 320px;
+    background-color: #F8F8F8;
+}
+
+.colors {
+    height: 100%;
+    overflow: scroll;
+
+}
+
+.color {
+    margin-top: 20px;
+}
+
+.color :first-child {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.black {
+    background-color: black;
+}
+ 
+.green {
+    background-color: green;
+}
+ 
+.cyan {
+    background-color: cyan;
+}
+ 
+.gray {
+    background-color: gray;
+}
+ 
+.pink {
+    background-color: pink;
+}
+ 
+.brown {
+    background-color: brown;
+}
+ 
+.orange {
+    background-color: orange;
+}
+ 
+.coral {
+    background-color: coral;
+}
+ 
