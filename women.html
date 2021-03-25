@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="https://meyerweb.com/eric/tools/css/reset/reset200802.css">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="style-women.css">
+    <script src="script.js" defer></script>
 </head>
 <body>
     <div class="black-background top">
@@ -84,7 +85,7 @@
     </div>
     <div class="container flex-between white-down">
         <div class="mini-nav"> 
-            <img src="./assets/women-filter-icons/adjustment.png" alt="">
+            <img id="filter-img" src="./assets/women-filter-icons/adjustment.png"  alt="">
             <span>FILTER</span>
         </div>
         <div class="list-grid">
@@ -96,47 +97,130 @@
             <img src="./assets/women-filter-icons/chevron.png" alt="">
         </div>
     </div>
-    <div class="filter-bar container">
-        <h2>COLOR</h2>
-        <div class="colors">
-            
-            <div class="color">
-                <span class="black"></span>
-                <span>Black</span>
+    <div class="filter-bar container hide" id="filter-bar">
+        <div class="each-wrapper">
+            <h4>COLOR</h4>
+            <div class="colors">
+                <div class="color">
+                    <span class="black"></span>
+                    <span>Black</span>
+                </div>
+                <div class="color">
+                    <span class="green"></span>
+                    <span>green</span>
+                </div>
+                <div class="color">
+                    <span class="cyan"></span>
+                    <span>cyan</span>
+                </div>
+                <div class="color">
+                    <span class="gray"></span>
+                    <span>gray</span>
+                </div>
+                <div class="color">
+                    <span class="pink"></span>
+                    <span>pink</span>
+                </div>
+                <div class="color">
+                    <span class="brown"></span>
+                    <span>brown</span>
+                </div>
+                <div class="color">
+                    <span class="blue"></span>
+                    <span>blue</span>
+                </div>
+                <div class="color">
+                    <span class="orange"></span>
+                    <span>orange</span>
+                </div>
+                <div class="color">
+                    <span class="coral"></span>
+                    <span>coral</span>
+                </div>
             </div>
-            <div class="color">
-                <span class="green"></span>
-                <span>green</span>
+        </div>
+        <div class="each-wrapper">
+            <h4>SIZE</h4>
+            <div class="sizes">
+                <div>
+                    <input type="checkbox" id="xl">
+                    <label for="xl">XL</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="L">
+                    <label for="L">L</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="M">
+                    <label for="M">M</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="S">
+                    <label for="S">S</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="XS">
+                    <label for="XS">XS</label>
+                </div>
             </div>
-            <div class="color">
-                <span class="cyan"></span>
-                <span>cyan</span>
+        </div>
+        <div class="each-wrapper">
+            <h4>BRAND</h4>
+            <div class="brands">
+                <div>
+                    <input type="checkbox" id="CK">
+                    <label for="CK">CK</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="h&m">
+                    <label for="h&m">H&M</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="Kalles">
+                    <label for="Kalles">Kalles</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="Levi's">
+                    <label for="Levi's">Levi's</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="Adidas">
+                    <label for="Adidas">Adidas</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="Nike">
+                    <label for="Nike">Nike</label>
+                </div>
             </div>
-            <div class="color">
-                <span class="gray"></span>
-                <span>gray</span>
+        </div>
+        <div class="each-wrapper">
+            <h4>BRAND</h4>
+            <div class="prices">
+                <div>
+                    <input type="checkbox" id="$1200+">
+                    <label for="$1200+">$1200+</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="$600-$1200">
+                    <label for="$600-$1200">$600-$1200</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="$300-$600">
+                    <label for="$300-$600">$300-$600</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="$150-$300">
+                    <label for="$150-$300">$150-$300</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="$50-$150">
+                    <label for="$50-$150">$50-$150</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="$7-$50">
+                    <label for="$7-$50">$7-$50</label>
+                </div>
             </div>
-            <div class="color">
-                <span class="pink"></span>
-                <span>pink</span>
-            </div>
-            <div class="color">
-                <span class="brown"></span>
-                <span>brown</span>
-            </div>
-            <div class="color">
-                <span class="blue"></span>
-                <span>blue</span>
-            </div>
-            <div class="color">
-                <span class="orange"></span>
-                <span>orange</span>
-            </div>
-            <div class="color">
-                <span class="coral"></span>
-                <span>coral</span>
-            </div>
-            
         </div>
     </div>
     <section class="clothes container">
