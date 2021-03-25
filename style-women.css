@@ -81,7 +81,7 @@
 
 .each-wrapper {
     width: 205px;
-    height: 300px;
+    height: 270px;
 }
 
 .colors {
@@ -126,6 +126,10 @@
 .brown {
     background-color: brown;
 }
+
+.blue {
+    background-color: blue;
+}
  
 .orange {
     background-color: orange;
@@ -134,4 +138,21 @@
 .coral {
     background-color: coral;
 }
- 
+
+/* scrollbar */
+
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  ::-webkit-scrollbar-thumb {
+    background: #888; 
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
