@@ -1,0 +1,39 @@
+
+.women-nav {
+    font-size: 11px;
+    background-color: #F8F8F8;
+    padding: 10px 0;
+}
+
+.mini-nav img {
+    width: 10px;
+    margin: 5px;
+    vertical-align: middle;
+}
+
+.share img {
+    margin-right: 10px;
+}
+
+.seeall span {
+    font-size: 26px;
+}
+
+.white-down {
+    padding: 50px 0 0 0;
+}
+
+.list-grid :first-child {
+    margin-left: 25px;
+}
+
+.romb {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.for-women {
+    margin-top: 60px;
+    padding: 15px 0;
+    align-items: center;
+}
