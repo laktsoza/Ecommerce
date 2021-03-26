@@ -9,9 +9,9 @@ filterBtn.addEventListener('click', (e) => {
         filterBar.classList.add('hide')
     }
 
-    // if(e.target.src == "./assets/women-filter-icons/adjustment.png") {
-    //     e.target.src = "./assets/women-filter-icons/x.png";
-    // } else {
-    //     e.target.src = "./assets/women-filter-icons/adjustment.png";
-    // }
+    if(e.target.src.includes('adjustment')) {
+        e.target.src = e.target.src.replace('adjustment', 'x-filter');
+    } else {
+        e.target.src = e.target.src.replace('x-filter', 'adjustment');
+    }
 })

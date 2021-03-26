@@ -62,8 +62,9 @@ header .container {
     gap: 35px;
 }
 
-ul li a:hover {
+ul li:hover {
     opacity: 0.7;
+    transform: scale(1.05);
 }
 
 .actions img {
